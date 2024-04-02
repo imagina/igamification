@@ -14,7 +14,7 @@ class CacheCategoryDecorator extends BaseCacheCrudDecorator implements CategoryR
         $this->repository = $category;
     }
 
-  public function bulkOrder($data, $params)
+  public function bulkOrder($data, $params = false)
   {
       // TODO: Implement bulkOrder() method.
   }
