@@ -14,7 +14,7 @@ class CacheActivityDecorator extends BaseCacheCrudDecorator implements ActivityR
         $this->repository = $activity;
     }
 
-  public function bulkOrder($data, $params)
+  public function bulkOrder($data, $params = false)
   {
       // TODO: Implement bulkOrder() method.
   }
