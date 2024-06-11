@@ -20,5 +20,17 @@ return [
     'messages' => [
     ],
     'validation' => [
+        'not actives' => 'No existen actividades activas',
+    ],
+    'status' => [
+        'inactive' => 'Inactiva',
+        'active' => 'Activa',
+    ],
+    'type' => [
+        'internalURL' => 'Url Interna',
+        'externalUrl' => 'Url Externa',
+        'internalForm' => 'Formulario Interno',
+        'formScript' => 'Script de Formulario',
+        'tour' => 'Recorrido',
     ],
 ];
